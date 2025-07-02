@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+#btn:hover{
+    background: linear-gradient(to right, #FF5376, #FF6A3A);
+    transition: ease-in-out;
+}
+
+#btn-dismiss:hover{
+    background: linear-gradient(to right, #FF5376, #FF6A3A);
+    transition: ease-in-out;
+}
