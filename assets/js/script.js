@@ -11,6 +11,7 @@ var errorMessage = document.getElementById('errorMessage')
 var hiddenMain = document.getElementById('hidden-main')
 var thanks = document.getElementById('thanks')
 var btnDismiss = document.getElementById('btn-dismiss')
+var emailLabel = document.getElementById('email-label')
 
 //validation
 btn.addEventListener('click', () => {
@@ -25,6 +26,8 @@ btn.addEventListener('click', () => {
         errorMessage.classList.add('hidden')
         hiddenMain.classList.add('hidden')
         thanks.classList.remove('hidden')
+        emailLabel.innerHTML = email.value
+        emailLabel.classList.add('font-bold')
     }
 })
 
