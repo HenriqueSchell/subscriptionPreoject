@@ -20,6 +20,9 @@ btn.addEventListener('click', () => {
         email.classList.remove('focus:ring-[#242742]')
         errorMessage.classList.remove('hidden')
     }else{
+        email.classList.remove('bg-red-200', 'text-red-600', 'ring', 'focus:ring-red-600')
+        email.classList.add('focus:ring-[#242742]')
+        errorMessage.classList.add('hidden')
         hiddenMain.classList.add('hidden')
         thanks.classList.remove('hidden')
     }
